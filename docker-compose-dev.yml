@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   php:
-    image: jamesmalin/laravel-api-react-jwt:1.0.2
+    image: jfernancordova/docker-laravel-api-dev:1.0.2
     environment:
       APP_NAME: laravel-api-react-jwt
       APP_ENV: local
